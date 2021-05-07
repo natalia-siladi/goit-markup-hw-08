@@ -127,6 +127,7 @@
         <ul class="list features__list">
           <li class="features__item">
             <div class="features__icons-box">
+
               <svg class="features__icons">
                 <use href="./images/sprite.svg#icon-antenna-1"></use>
               </svg>
@@ -177,17 +178,36 @@
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list activities">
           <li class="activities__item">
-            <div class=""><img src="./images/workspace.jpg" alt="workspace" width="370"></div>
+
+            <picture>
+              <source srcset="./images/box/box1.jpg 1x, ./images/box/box1@2x.jpg 2x" media="(min-width: 1200px)"
+                type="image/jpeg" />
+
+              <img src="./images/box/box1.jpg " alt="рабочее место" width="370">
+            </picture>
+
             <div class="activities__name-box">
               <h3 class="activities__name">Десктопные приложения</h3>
             </div>
           </li>
-          <li class="activities__item"><img src="./images/laptop.jpg" alt="laptop" width="370">
+          <li class="activities__item">
+            <picture>
+              <source srcset="./images/box/box2.jpg 1x, ./images/box/box2@2x.jpg 2x" media="(min-width: 1200px)"
+                type="image/jpeg" />
+
+              <img src="./images/box/box2.jpg " alt="рабочее место" width="370">
+            </picture>
             <div class="activities__name-box">
               <h3 class="activities__name">Мобильные приложения</h3>
             </div>
           </li>
-          <li class="activities__item"><img src="./images/tablet.jpg" alt="tablet" width="370">
+          <li class="activities__item">
+            <picture>
+              <source srcset="./images/box/box3.jpg 1x, ./images/box/box3@2x.jpg 2x" media="(min-width: 1200px)"
+                type="image/jpeg" />
+
+              <img src="./images/box/box3.jpg " alt="рабочее место" width="370">
+            </picture>
             <div class="activities__name-box">
               <h3 class="activities__name">Дизайнерские решения</h3>
             </div>
@@ -207,7 +227,17 @@
           <li class="team__item">
             <div class="card">
               <div class="card__thumb">
-                <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270">
+                <picture>
+                  <source srcset="./images/team/desktop/i.d.desktop.jpg 1x, ./images/team/desktop/i.d.desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)" type="image/jpeg" />
+                  <source srcset="./images/team/tablet/i.d.tablet.jpg 1x, ./images/team/tablet/i.d.tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" type="image/jpeg" />
+                  <source srcset="./images/team/mobile/i.d.mobile.jpg 1x, ./images/team/mobile/i.d.mobile@2x.jpg 2x"
+                    media="(max-width: 767px)" type="image/jpeg" />
+
+                  <img src="./images/team/desktop/i.d.desktop.jpg" alt="igor" width="450">
+                </picture>
+
               </div>
               <div class="card__content">
                 <h3 class="card__name">Игорь Демьяненко</h3>
@@ -235,7 +265,19 @@
           <li class="team__item">
             <div class="card">
               <div class="card__thumb">
-                <img src="./images/olga.jpg" alt="Ольга Репина" width="270">
+
+                <picture>
+
+                  <source srcset="./images/team/desktop/o.r.desktop.jpg 1x, ./images/team/desktop/o.r.desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)" type="image/jpeg" />
+                  <source srcset="./images/team/tablet/o.r.tablet.jpg 1x, ./images/team/tablet/o.r.tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" type="image/jpeg" />
+                  <source srcset="./images/team/mobile/o.r.mobile.jpg 1x, ./images/team/mobile/o.r.mobile@2x.jpg 2x"
+                    media="(max-width: 767px)" type="image/jpeg" />
+
+                  <img src="./images/team/desktop/o.r.desktop.jpg" alt="olga" width="450">
+                </picture>
+
               </div>
               <div class="card__content">
                 <h3 class="card__name">Ольга Репина</h3>
@@ -263,7 +305,18 @@
           <li class="team__item">
             <div class="card">
               <div class="card__thumb">
-                <img src="./images/nickolay.jpg" alt="Николай Тарасов" width="270">
+
+                <picture>
+
+                  <source srcset="./images/team/desktop/n.t.desktop.jpg 1x, ./images/team/desktop/n.t.desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)" type="image/jpeg" />
+                  <source srcset="./images/team/tablet/n.t.tablet.jpg 1x, ./images/team/tablet/n.t.tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" type="image/jpeg" />
+                  <source srcset="./images/team/mobile/n.t.mobile.jpg 1x, ./images/team/mobile/n.t.mobile@2x.jpg 2x"
+                    media="(max-width: 767px)" type="image/jpeg" />
+
+                  <img src="./images/team/desktop/n.t.desktop.jpg" alt="nickolas" width="450">
+                </picture>
               </div>
               <div class="card__content">
                 <h3 class="card__name">Николай Тарасов</h3>
@@ -290,7 +343,17 @@
           <li class="team__item">
             <div class="card">
               <div class="card__thumb">
-                <img src="./images/michail.jpg" alt="Михаил Ермаков" width="270">
+                <picture>
+                  <source srcset="./images/team/desktop/m.e.desktop.jpg 1x, ./images/team/desktop/m.e.desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)" type="image/jpeg" />
+                  <source srcset="./images/team/tablet/m.e.tablet.jpg 1x, ./images/team/tablet/m.e.tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" type="image/jpeg" />
+                  <source srcset="./images/team/mobile/m.e.mobile.jpg 1x, ./images/team/mobile/m.e.mobile@2x.jpg 2x"
+                    media="(max-width: 767px)" type="image/jpeg" />
+
+                  <img src="./images/team/desktop/m.e.desktop.jpg" alt="michael" width="450">
+                </picture>
+
               </div>
               <div class="card__content">
                 <h3 class="card__name">Михаил Ермаков</h3>

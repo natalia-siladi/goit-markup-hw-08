@@ -41,12 +41,15 @@
 &:focus {
     color: var(--accent-text-colour); 
 }
-&.current {
+}
+
+.site-nav__link--current {
     color: var(--accent-text-colour); 
 
 
 }
-}
+
+
 .site-nav__link--current::after {
     content: " ";
     display: block;

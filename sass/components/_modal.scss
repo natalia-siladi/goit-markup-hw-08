@@ -67,13 +67,12 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
      display: flex;
    justify-content: center;
    align-items: center; 
-   top: 8px;
-   right: 8px;
+
    @media screen and (min-width: 480px) {
        top: 8px;
        right: 8px;
@@ -148,17 +147,30 @@
     display: inline-flex;
     align-items: center;
     margin-top: 20px;
-    margin-left: 12px;
-    margin-bottom: 0;
+    
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 12px;  
+    }
+
     
 
 }
 .form__checkbox-text {
-    display: inline-flex;
+  
    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em; 
+
+    @media screen and (min-width: 1200px) {
+        
+
+        font-size: 14px;
+        line-height: 1.71;
+    }
+   
+
 }
 .form__input {
     // color: var(--title-text-colour);
@@ -246,7 +258,7 @@
 }
 .form__conditions {
     color: var(--accent-text-colour);
-    margin-left: 4px; 
+    // margin-left: 4px; 
 
 }
 
